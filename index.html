@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUE VMS | Game Studio</title>
+    <meta name="description"
+        content=" game Studio.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header id="main-header">
+        <div class="logo">
+            <a href="#">BLUE VMS</a>
+        </div>
+        <nav style="display: flex; align-items: center; gap: 2rem;">
+            <ul>
+                <li><a href="#games" data-i18n="navProducts">Products</a></li>
+                <li><a href="#company" data-i18n="navCompany">Company</a></li>
+            </ul>
+            <button id="lang-toggle" class="btn lang-btn">PT-BR</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg" style="background-image: url('assets/hero_bg.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <h1>BLUE VMS</h1>
+            <p class="subtitle" data-i18n="heroSubtitle">Look for the light.</p>
+        </div>
+        <div class="scroll-indicator">
+            <span data-i18n="scroll">Scroll</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games-section section-padding">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="featuredTitles">Featured Titles</h2>
+
+            <div class="games-grid">
+                <!-- Game 1 -->
+                <article class="game-card fade-in">
+                    <div class="game-image">
+                        <img src="assets/game_cover_1.png" alt="Edible Nightmare game cover">
+                    </div>
+                    <div class="game-info">
+                        <h3>Edible Nightmare</h3>
+                        <div class="meta">
+                            <span class="date" data-i18n="date1">Release Date: Coming Soon</span>
+                            <span class="genre" data-i18n="genre1">action-adventure platformer</span>
+                        </div>
+                        <p data-i18n="desc1">Beto is a curious and brave boy who embarks on an adventure inside his own
+                            home.
+                            In a food-inspired world, he faces quirky enemies and unique bosses.
+                            Each environment, like the kitchen and fridge, becomes a challenging level.
+                            The game blends humor, action, and progression in a fun, lighthearted journey.</p>
+                        <a href="#" class="btn" data-i18n="btnDetails1">View Details</a>
+                    </div>
+                </article>
+
+                <!-- Game 2 -->
+                <article class="game-card fade-in" style="transition-delay: 0.2s;">
+                    <div class="game-image">
+                        <img src="assets/game_cover_2.png" alt="">
+                    </div>
+                    <div class="game-info">
+                        <h3>After the Fire</h3>
+                        <div class="meta">
+                            <span class="date" data-i18n="date2">Release Date: Coming Soon</span>
+                            <span class="genre" data-i18n="genre2">Post-Apocalyptic RPG</span>
+                        </div>
+                        <p data-i18n="desc2">After the Fire: The Last Brazilian is a post-apocalyptic RPG set 15 years
+                            after a global nuclear war devastated most of the world.
+                            You play as Lucas, a
+                            Brazilian survivor who awakens in a bunker with no memory and a mysterious clue about the
+                            Project Hope.
+                            Exploring the ruins of Brazil, you must survive harsh environments, face dangerous factions,
+                            and uncover the truth behind the war.
+                            Player choices shape alliances, the fate of survivors, and the future of civilization.
+                            In the end, your decisions will determine whether humanity rebuilds, collapses, or falls
+                            under a new tyranny.</p>
+                        <a href="#" class="btn" data-i18n="btnDetails2">View Details</a>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Info -->
+    <section id="company" class="company-section section-padding dark-bg">
+        <div class="container fade-in">
+            <h2 class="section-title" data-i18n="aboutTitle">About BLUE VMS</h2>
+            <div class="company-content">
+                <p data-i18n="aboutP1">BLUE VMS is a game studio built on one core idea: delivering fun and creativity
+                    in everything we create. We design games that are engaging, expressive, and full of personality.</p>
+                <p data-i18n="aboutP2">Our focus is to craft experiences that feel good to play, not just to complete.
+                    Because for us, great games are the ones that leave you smiling.</p>
+                <a href="#" id="back-to-top" class="btn btn-outline" data-i18n="btnBackToTop">Back to Top</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-socials">
+                <a href="https://discord.gg/PER76Mw2YM" target="_blank" aria-label="Discord" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36" fill="currentColor">
+                        <path
+                            d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a67.55,67.55,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.31,60,73.31,53s5-12.74,11.43-12.74S96.2,46,96.12,53,91.08,65.69,84.69,65.69Z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/bluevms_gamestudio/" target="_blank" aria-label="Instagram" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-i18n="footerAccess">Access</a>
+                <a href="#" data-i18n="footerPrivacy">Privacy Policy</a>
+                <a href="#" data-i18n="footerSitePolicy">Site Policy</a>
+                <a href="#" data-i18n="footerSitemap">Sitemap</a>
+            </div>
+            <div class="footer-copy" data-i18n="footerCopy">
+                &copy; 2026 BLUE VMS, Inc. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
